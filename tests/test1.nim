@@ -6,13 +6,7 @@
 # To run these tests, simply execute `nimble test`.
 
 import unittest
-
 import nim_sokol
-
-sokolMain(desc):
-  echo "in test"
-  desc.width = 400
-  desc.height = 300
 
 test "can add":
   check add(5, 5) == 10

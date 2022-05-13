@@ -2,7 +2,7 @@
 #include "sokol/sokol_app.h"
 #include "sokol/sokol_gfx.h"
 #include "sokol/sokol_glue.h"
-
+/*
 typedef struct {
     int32_t width;
     int32_t height;
@@ -17,3 +17,4 @@ sapp_desc sokol_main(int argc, char* argv[]) {
         .height = desc.height,
     };
 }
+*/
